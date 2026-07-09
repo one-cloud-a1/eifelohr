@@ -620,7 +620,7 @@ button:focus-visible,a:focus-visible{
 .guarantee-body h2{color:#fff;font-size:clamp(1.2rem,2.5vw,1.75rem);margin-bottom:.4em}
 .guarantee-body p{color:rgba(255,255,255,.72);font-size:.975rem;line-height:1.65;margin:0}
 
-/* Differentiator "Warum Hoffnungsohr?" --------------- */
+/* Differentiator "Warum Eifelohr?" --------------- */
 .diff-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
 @media(max-width:680px){.diff-grid{grid-template-columns:1fr}}
 .diff-card{
