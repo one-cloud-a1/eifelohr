@@ -1,6 +1,6 @@
 /* =========================================================
-   Hoffnungsohr — Noble & Accessible Design
-   Palette: Navy #0F1F2E · Steel #5A6470 · Gold #C4A46A
+   Eifelohr — Noble & Accessible Design
+   Palette: Anthrazit #0F1F2E · Steel #5A6470 · Rot #E2001A (Logo)
    Font: Instrument Sans
    WCAG AA throughout
    ========================================================= */
@@ -47,13 +47,13 @@ button:focus-visible,a:focus-visible{
 :root{
   --navy:   #0F1F2E;   /* headings, dark bg, primary dark */
   --steel:  #5A6470;   /* secondary text — 5.9:1 on white ✅ */
-  --gold:   #C4A46A;   /* accent — used on dark bg or decorative */
-  --gold-dark: #B08D56;/* darker gold for hover on white bg */
+  --gold:   #E2001A;   /* brand red — accent (logo red) */
+  --gold-dark: #B80016;/* darker red for hover */
   --ink:    #0F1F2E;   /* body text = navy, 15:1 on white ✅ */
   --muted:  #5A6470;   /* muted text */
-  --bg-soft:#F6F5F1;   /* warm off-white sections */
+  --bg-soft:#F4F5F6;   /* cool off-white sections */
   --bg-dark:#0F1F2E;   /* dark sections */
-  --border: #E3DFD7;   /* warm gray border */
+  --border: #E2E4E7;   /* cool gray border */
   --container:1200px;
   --shadow-sm:0 1px 4px rgba(15,31,46,.06);
   --shadow: 0 8px 32px rgba(15,31,46,.10);
@@ -70,7 +70,7 @@ button:focus-visible,a:focus-visible{
 .section-dark h1,.section-dark h2,.section-dark h3,.section-dark h4{color:#fff}
 
 /* Buttons ----------------------------------------------- */
-/* Primary: navy text on gold — contrast 7.2:1 ✅ AAA */
+/* Primary: white text on brand red #E2001A — contrast ~4.9:1 ✅ AA */
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:.5em;
   padding:13px 26px;border-radius:var(--radius-sm);font-weight:600;font-size:15px;
@@ -78,8 +78,8 @@ button:focus-visible,a:focus-visible{
   transition:background .18s ease,color .18s ease,border-color .18s ease,
              transform .18s cubic-bezier(.22,.61,.36,1),box-shadow .18s ease;
 }
-.btn-primary{background:var(--gold);color:var(--navy);border:2px solid var(--gold)}
-.btn-primary:hover{background:var(--gold-dark);border-color:var(--gold-dark);color:var(--navy);transform:translateY(-1px);box-shadow:0 8px 20px rgba(196,164,106,.35)}
+.btn-primary{background:var(--gold);color:#fff;border:2px solid var(--gold)}
+.btn-primary:hover{background:var(--gold-dark);border-color:var(--gold-dark);color:#fff;transform:translateY(-1px);box-shadow:0 8px 20px rgba(226,0,26,.35)}
 .btn-outline{background:transparent;color:var(--navy);border:2px solid var(--navy)}
 .btn-outline:hover{background:var(--navy);color:#fff;transform:translateY(-1px)}
 .btn-outline.on-dark{color:#fff;border-color:rgba(255,255,255,.65)}
@@ -446,7 +446,7 @@ button:focus-visible,a:focus-visible{
   display:grid;grid-template-columns:repeat(4,1fr);
   gap:40px;margin-bottom:48px;
   padding-bottom:48px;
-  border-bottom:1px solid rgba(196,164,106,.25);
+  border-bottom:1px solid rgba(226,0,26,.25);
 }
 @media (max-width:800px){.footer-inner{grid-template-columns:repeat(2,1fr);gap:32px}}
 @media (max-width:480px){.footer-inner{grid-template-columns:1fr}}
@@ -487,7 +487,7 @@ button:focus-visible,a:focus-visible{
 .step{display:flex;gap:20px;align-items:flex-start}
 .step-num{
   flex-shrink:0;width:40px;height:40px;border-radius:50%;
-  background:var(--gold);color:var(--navy);
+  background:var(--gold);color:#fff;
   font-weight:700;font-size:.95rem;
   display:flex;align-items:center;justify-content:center;
 }
@@ -593,7 +593,7 @@ button:focus-visible,a:focus-visible{
 .step-badge{
   display:inline-block;margin-top:12px;
   padding:3px 11px;border-radius:999px;
-  background:rgba(196,164,106,.13);
+  background:rgba(226,0,26,.13);
   color:var(--gold-dark);font-size:.77rem;font-weight:600;
 }
 
@@ -604,7 +604,7 @@ button:focus-visible,a:focus-visible{
   max-width:840px;margin:0 auto;
   padding:36px 40px;
   background:rgba(255,255,255,.05);
-  border:1px solid rgba(196,164,106,.3);border-radius:var(--radius);
+  border:1px solid rgba(226,0,26,.3);border-radius:var(--radius);
 }
 @media(max-width:680px){.guarantee-card{flex-direction:column;text-align:center;padding:28px 20px;gap:24px}}
 .guarantee-badge{
@@ -677,17 +677,17 @@ button:focus-visible,a:focus-visible{
 .sticky-phone{
   display:none;
   position:fixed;bottom:20px;right:20px;z-index:400;
-  background:var(--gold);color:var(--navy);
+  background:var(--gold);color:#fff;
   border-radius:999px;padding:13px 22px;
   font-weight:700;font-size:.875rem;
   align-items:center;gap:8px;
-  box-shadow:0 8px 28px rgba(196,164,106,.5);
+  box-shadow:0 8px 28px rgba(226,0,26,.5);
   text-decoration:none;
   border:2px solid var(--gold-dark);
   transition:transform .18s cubic-bezier(.22,.61,.36,1),box-shadow .18s;
 }
 .sticky-phone:hover,.sticky-phone:focus{
-  transform:translateY(-2px);box-shadow:0 12px 36px rgba(196,164,106,.6);color:var(--navy)
+  transform:translateY(-2px);box-shadow:0 12px 36px rgba(226,0,26,.6);color:#fff
 }
 .sticky-phone svg{flex-shrink:0;width:18px;height:18px}
 @media(max-width:880px){.sticky-phone{display:inline-flex}}
@@ -711,7 +711,7 @@ button:focus-visible,a:focus-visible{
 .pricing-tier.featured::before{
   content:"Beliebt";position:absolute;
   top:16px;right:-26px;
-  background:var(--gold);color:var(--navy);
+  background:var(--gold);color:#fff;
   font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;
   padding:4px 32px;transform:rotate(35deg);
 }
@@ -735,7 +735,7 @@ button:focus-visible,a:focus-visible{
   transition:border-color .15s ease,box-shadow .15s ease;
 }
 .ho-funnel input[type=text]:focus,.ho-funnel input[type=tel]:focus,.ho-funnel input[type=email]:focus,.ho-funnel select:focus,.ho-funnel textarea:focus{
-  outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(196,164,106,.18);
+  outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(226,0,26,.18);
 }
 .ho-funnel textarea{resize:vertical;min-height:96px}
 .ho-consent{display:flex;gap:10px;align-items:flex-start;font-size:.85rem;color:var(--steel);line-height:1.5}
@@ -762,7 +762,7 @@ button:focus-visible,a:focus-visible{
 .funnel-opt input{position:absolute;opacity:0;pointer-events:none}
 .funnel-opt span{font-weight:600;color:var(--navy)}
 .funnel-opt::before{content:"";width:20px;height:20px;border:2px solid var(--border);border-radius:50%;flex-shrink:0;transition:border-color .15s ease,background .15s ease}
-.funnel-opt:has(input:checked),.funnel-opt.is-selected{border-color:var(--gold);background:rgba(196,164,106,.09)}
+.funnel-opt:has(input:checked),.funnel-opt.is-selected{border-color:var(--gold);background:rgba(226,0,26,.09)}
 .funnel-opt:has(input:checked)::before,.funnel-opt.is-selected::before{border-color:var(--gold);background:radial-gradient(circle,var(--gold) 42%,transparent 46%)}
 .funnel-nav{display:flex;gap:12px;align-items:center;margin-top:24px}
 .funnel-nav .funnel-next,.funnel-nav .funnel-submit{margin-left:auto}
@@ -1003,7 +1003,7 @@ button:focus-visible,a:focus-visible{
 }
 .lp-hero::after{
   content:"";position:absolute;inset:0;
-  background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(196,164,106,.10) 0%,transparent 70%);
+  background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(226,0,26,.10) 0%,transparent 70%);
   pointer-events:none;
 }
 .lp-hero-eyebrow{font-size:.72rem;text-transform:uppercase;letter-spacing:.22em;color:var(--gold);font-weight:700;margin-bottom:20px}
@@ -1049,7 +1049,7 @@ button:focus-visible,a:focus-visible{
 }
 /* Nav highlight for Hörtest */
 .nav-highlight{
-  background:var(--gold);color:var(--navy) !important;
+  background:var(--gold);color:#fff !important;
   padding:6px 14px !important;border-radius:var(--radius-sm);
   font-weight:600 !important;
 }
