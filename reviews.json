@@ -1,0 +1,37 @@
+{
+  "updated": "2026-07-09T00:00:00.000Z",
+  "place_id": "",
+  "name": "Eifelohr",
+  "rating": 5.0,
+  "total": 0,
+  "url": "https://maps.app.goo.gl/4mdguAq9eLVWh4rb7",
+  "reviews": [
+    {
+      "author_name": "Ralf Gasser",
+      "author_url": "",
+      "profile_photo_url": "",
+      "rating": 5,
+      "text": "Der Besitzer Johannes Penzel ist ein sehr gut ausgebildeter Hörakustik-Meister und überaus freundlich zu seinen Kunden. Die Ohrabdrücke, die er uns machte, sind perfekt und das Endprodukt hat eine perfekte Passgenauigkeit. Wir kommen wieder.",
+      "relative_time": "",
+      "time": 0
+    },
+    {
+      "author_name": "Ralf Michels",
+      "author_url": "",
+      "profile_photo_url": "",
+      "rating": 5,
+      "text": "Hier fühlte ich mich sehr gut aufgehoben. Herr Penzel und seine Mitarbeiter sind sehr freundlich und zuvorkommend. Ich wurde fachlich sehr gut und kompetent beraten. Es wurde viel ausprobiert und erklärt. Meine neuen Hörgeräte sind top.",
+      "relative_time": "",
+      "time": 0
+    },
+    {
+      "author_name": "Wolfgang & Christine Hörter",
+      "author_url": "",
+      "profile_photo_url": "",
+      "rating": 5,
+      "text": "Wir sind mit der Beratung von Herrn Penzel voll umfassend zufrieden. Gerne empfehlen wir dieses Haus weiter.",
+      "relative_time": "",
+      "time": 0
+    }
+  ]
+}
