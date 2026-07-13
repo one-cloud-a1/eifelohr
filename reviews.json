@@ -1,37 +1,55 @@
 {
-  "updated": "2026-07-09T00:00:00.000Z",
-  "place_id": "",
-  "name": "Eifelohr",
-  "rating": 5.0,
-  "total": 0,
-  "url": "https://maps.app.goo.gl/4mdguAq9eLVWh4rb7",
+  "updated": "2026-07-13T08:36:10.859Z",
+  "place_id": "ChIJ6-4CzglbvkcRk6_lGbinuFE",
+  "name": "Eifelohr ehemals Reinnarth Hörgeräte GmbH",
+  "rating": 5,
+  "total": 132,
+  "url": "https://maps.google.com/?cid=5888640921937227667",
   "reviews": [
     {
-      "author_name": "Ralf Gasser",
-      "author_url": "",
-      "profile_photo_url": "",
+      "author_name": "Wolfgang Fuchs",
+      "author_url": "https://www.google.com/maps/contrib/108349177204737897745/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJol3OY2cWIy7q7mB28H-J4y0RvWwMPgCAb6l2ZcawJ4jH59w=s128-c0x00000000-cc-rp-mo",
       "rating": 5,
-      "text": "Der Besitzer Johannes Penzel ist ein sehr gut ausgebildeter Hörakustik-Meister und überaus freundlich zu seinen Kunden. Die Ohrabdrücke, die er uns machte, sind perfekt und das Endprodukt hat eine perfekte Passgenauigkeit. Wir kommen wieder.",
-      "relative_time": "",
-      "time": 0
+      "text": "Voll zufrieden. Kein Drängen zum teuersten Produkt. Beratung ausschließlich bedarfsorientiert.",
+      "relative_time": "in der letzten Woche",
+      "time": 1783625164
     },
     {
-      "author_name": "Ralf Michels",
-      "author_url": "",
-      "profile_photo_url": "",
+      "author_name": "Susanne Hahn",
+      "author_url": "https://www.google.com/maps/contrib/105233630578694496948/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX3KKiGXv9i2yoDGTjSebxDjLEhg0dz9GvFBzmpLATx_EtxEUX6=s128-c0x00000000-cc-rp-mo",
       "rating": 5,
-      "text": "Hier fühlte ich mich sehr gut aufgehoben. Herr Penzel und seine Mitarbeiter sind sehr freundlich und zuvorkommend. Ich wurde fachlich sehr gut und kompetent beraten. Es wurde viel ausprobiert und erklärt. Meine neuen Hörgeräte sind top.",
-      "relative_time": "",
-      "time": 0
+      "text": "Da ärztlich festgestellt wurde, dass ich schlecht höre, bin ich durch Zufall an Eifelohr, ehemals Fa. Reinnarth gekommen.\nDie Beratung war sehr gut und kompetent.\nDer Mitarbeiter hat sich sehr viel Zeit genommen und es wurden gründliche Hörtests durchgeführt. Ich durfte dann 2 Wochen ein Hörgerät testen und habe mich danach aufgrund der sehr guten Qualität für Eifelohr entschieden. Ich kann das Team von Eifelohr, ehemals Reinnarth sehr empfehlen.",
+      "relative_time": "in der letzten Woche",
+      "time": 1783405589
     },
     {
-      "author_name": "Wolfgang & Christine Hörter",
-      "author_url": "",
-      "profile_photo_url": "",
+      "author_name": "Mieke",
+      "author_url": "https://www.google.com/maps/contrib/118385273624678491071/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIOIT4IWZ_taI6BhPYZAmKGz4QLIoJwoS_j5bLvvo8yeFTpHQ=s128-c0x00000000-cc-rp-mo",
       "rating": 5,
-      "text": "Wir sind mit der Beratung von Herrn Penzel voll umfassend zufrieden. Gerne empfehlen wir dieses Haus weiter.",
-      "relative_time": "",
-      "time": 0
+      "text": "Sehr freundliche und verständliche Beratung, auch bei fachlich speziellen Fragen. Auch bei Problemen gab es sofort Hilfe. Vielen Dank!",
+      "relative_time": "vor 2 Monaten",
+      "time": 1777027544
+    },
+    {
+      "author_name": "Michael Thelen",
+      "author_url": "https://www.google.com/maps/contrib/118283199923974288889/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKtq7HE2GvNl8o1VomPNVmSJX7PS4dacJnOZJx1MerSSkF95w=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "text": "Wegen des Usher-Syndroms habe ich einen sehr starken Hörverlust. Dieser kann nur mit sehr leistungsstarken Geräten verbessert werden. Zudem sind umfangreiche Anpassungen der Geräten an die persönlichen Bedürfnisse erforderlich.\nReinnarth Hörgeräte hat hier fachlich kompetent beraten und unterstützt.  Auch auf die persönlichen Bedürfnisse ist man eingegangen und hat diese berücksichtigt.\nHierfür meinen herzlichen Dank.\nReinnarth Hörgeräte kann und werde ich sehr gerne weiterempfehlen.",
+      "relative_time": "vor 3 Monaten",
+      "time": 1775981319
+    },
+    {
+      "author_name": "walter faber",
+      "author_url": "https://www.google.com/maps/contrib/109675587245012560680/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocI0rBQtgq1_Y5-Ryyda9o21FkTRa161_m8iVmodXQ_6pB7flw=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "text": "Mein schlechtes hören, führte mich zu Reinnarth Hörgerät, und das war eine sehr gute Entscheidung!\nIch kann nur sagen, hier fühlt man sich sofort in den richtigen Händen.\nSuper kompetentes Team, sehr gute Beratung.\nEs wurde sich sehr viel Zeit genommen, die Hörgeräte auf meine Bedürfnisse einzustellen.\nIch kann nur sagen ein super Team.",
+      "relative_time": "vor 4 Monaten",
+      "time": 1771331561
     }
   ]
 }
