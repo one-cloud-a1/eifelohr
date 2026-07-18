@@ -160,6 +160,14 @@
         count.style.display = 'none';
         form.querySelector('.funnel-nav').style.display = 'none';
         done.hidden = false;
+        // Conversion-Signal für GTM / Google Ads — nur bei echter Absendung.
+        var anliegenEl = form.querySelector('[name="Anliegen"]:checked');
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'terminanfrage_gesendet',
+          formularAnliegen: anliegenEl ? anliegenEl.value : '',
+          formularSeite: location.pathname
+        });
       }).catch(function () {
         var en = (document.documentElement.lang || '').slice(0, 2) === 'en';
         submitBtn.disabled = false;
