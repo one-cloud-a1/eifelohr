@@ -795,7 +795,8 @@ button:focus-visible,a:focus-visible{
 .kollektion-tier{font-size:1.75rem;font-weight:700;color:var(--navy);letter-spacing:-.01em;line-height:1}
 .kollektion-ab{font-size:.75rem;text-transform:uppercase;letter-spacing:.14em;color:var(--steel);font-weight:600;margin:16px 0 2px}
 .kollektion-price{font-size:2.4rem;font-weight:700;color:var(--navy);letter-spacing:-.03em;line-height:1;margin-bottom:2px}
-.kollektion-note{font-size:.78rem;color:var(--steel);font-weight:500;margin-bottom:22px}
+.kollektion-note{font-size:.98rem;color:var(--navy);font-weight:700;margin-bottom:22px}
+.kollektion-card-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:var(--gold);margin-bottom:6px}
 .kollektion-heading{font-size:clamp(2rem,4.5vw,3.1rem);letter-spacing:-.02em;color:var(--navy);margin-bottom:.25em}
 .kollektion-price .pu{font-size:1rem;font-weight:500;color:var(--steel)}
 .kollektion-card.featured .kollektion-price{color:var(--gold)}
