@@ -781,6 +781,26 @@ button:focus-visible,a:focus-visible{
 .pricing-ul li::before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:700}
 .pricing-footnote{font-size:.7rem;color:var(--steel);margin-top:12px;padding-top:10px;border-top:1px solid var(--border)}
 
+/* Eifelohr-Kollektion (Angebots-Stufen) ------------------ */
+.kollektion-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:stretch}
+@media(max-width:820px){.kollektion-grid{grid-template-columns:1fr;max-width:420px;margin:0 auto}}
+.kollektion-card{
+  background:#fff;border:1.5px solid var(--border);border-radius:var(--radius);
+  padding:32px 26px;display:flex;flex-direction:column;position:relative;overflow:hidden;
+  transition:transform .25s cubic-bezier(.22,.61,.36,1),box-shadow .25s;
+}
+.kollektion-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.kollektion-card.featured{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold);padding-top:52px}
+.kollektion-badge{position:absolute;top:0;left:0;right:0;background:var(--gold);color:#fff;text-align:center;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;padding:8px}
+.kollektion-tier{font-size:1.75rem;font-weight:700;color:var(--navy);letter-spacing:-.01em;line-height:1}
+.kollektion-ab{font-size:.75rem;text-transform:uppercase;letter-spacing:.14em;color:var(--steel);font-weight:600;margin:16px 0 2px}
+.kollektion-price{font-size:2.4rem;font-weight:700;color:var(--navy);letter-spacing:-.03em;line-height:1;margin-bottom:22px}
+.kollektion-price .pu{font-size:1rem;font-weight:500;color:var(--steel)}
+.kollektion-card.featured .kollektion-price{color:var(--gold)}
+.kollektion-card .pricing-ul{flex:none;margin-bottom:14px}
+.kollektion-extra-label{margin:6px 0 10px;font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--gold-dark);font-weight:700;padding-top:14px;border-top:1px dashed var(--border)}
+.kollektion-card .btn{margin-top:auto}
+
 /* Expert credentials strip ---------------------------- */
 .expert-strip{background:var(--navy);padding:18px 0;border-bottom:2px solid var(--gold)}
 .expert-strip-inner{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:0}
