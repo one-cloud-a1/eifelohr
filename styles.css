@@ -801,6 +801,7 @@ button:focus-visible,a:focus-visible{
 .kollektion-heading{font-size:clamp(2rem,4.5vw,3.1rem);letter-spacing:-.02em;color:var(--navy);margin-bottom:.25em}
 .kollektion-price .pu{font-size:1rem;font-weight:500;color:var(--steel)}
 .kollektion-card.featured .kollektion-price{color:var(--gold)}
+.ast{font-size:.7rem;font-weight:700;color:var(--gold);vertical-align:super;margin-left:1px}
 .kollektion-card .pricing-ul{flex:none;margin-bottom:14px}
 .kollektion-extra-label{margin:6px 0 10px;font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--gold-dark);font-weight:700;padding-top:14px;border-top:1px dashed var(--border)}
 .kollektion-card .btn{margin-top:auto}
