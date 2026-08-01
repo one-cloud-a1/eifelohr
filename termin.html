@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kostenloser Hörtest in Mayen – Termin sichern | Eifelohr</title>
+<meta name="description" content="Kostenloser Hörtest beim Hörakustik-Meisterbetrieb in Mayen. Termin anfragen oder direkt anrufen – ohne Kaufzwang, ohne Zeitdruck. Alle Hersteller &amp; Kassen.">
+<!-- Ads-Landingpage: soll NICHT organisch ranken (kein Duplicate Content zur Hauptseite) -->
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://www.eifelohr.de/termin.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<meta name="theme-color" content="#0F1F2E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"></noscript>
+<style>
+  :root{
+    --navy:#0F1F2E; --steel:#5A6470; --gold:#E2001A; --gold-dark:#B80016;
+    --cream:#E6CD96;
+    --bg-soft:#F4F5F6; --border:#E2E4E7; --muted:#5A6470;
+    --radius:12px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; font-family:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--navy); background:#fff; font-size:19px; line-height:1.6;
+  }
+  a{color:inherit}
+  img{max-width:100%;height:auto;display:block}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+  /* ---- Promo-Bar ---- */
+  .promo-bar{
+    background:var(--gold); color:#fff; text-align:center;
+    font-weight:700; font-size:1.02rem; padding:.6rem 1rem; letter-spacing:.01em;
+  }
+  .promo-bar strong{ background:var(--navy); color:#fff; padding:.12em .5em; border-radius:6px; margin:0 .15em; white-space:nowrap; }
+
+  /* ---- Header (minimal, kein Menü) ---- */
+  .top{ display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.8rem 0; }
+  .top img{ height:52px; width:auto; }
+  .top-call{
+    display:inline-flex; align-items:center; gap:.5rem; font-weight:800; text-decoration:none;
+    color:var(--navy); font-size:1.12rem; white-space:nowrap;
+  }
+  .top-call .ph{ font-size:1.3rem; }
+
+  /* ---- Hero ---- */
+  .hero{
+    color:#fff;
+    /* Hintergrundbild wie die Hauptseite (Johannes). Verlauf: oben heller, unten dunkler – Text bleibt lesbar. */
+    background:linear-gradient(180deg,rgba(15,31,46,.72) 0%,rgba(15,31,46,.80) 45%,rgba(15,31,46,.93) 100%), url('/images/hero-portrait.jpg') center 22%/cover no-repeat, var(--navy);
+  }
+  .hero-inner{ padding:2.4rem 0 2.8rem; }
+  .badge{
+    display:inline-block; background:var(--cream); color:var(--navy); font-weight:800;
+    padding:.5rem .9rem; border-radius:999px; font-size:1rem; margin-bottom:1.1rem;
+  }
+  .hero h1{ font-size:2.5rem; line-height:1.12; margin:0 0 .35rem; letter-spacing:-.02em; }
+  .hero .guarantee{ font-size:1.75rem; font-weight:800; color:#fff; line-height:1.2; margin:0 0 1rem; }
+  .hero .guarantee strong{ color:var(--cream); }
+  .hero .sub{ font-size:1.18rem; margin:0 0 1.4rem; color:#EAF0F5; max-width:42ch; }
+  .hero .sub strong{ color:#fff; }
+
+  .cta-row{ display:flex; flex-wrap:wrap; gap:.9rem; margin:0 0 1.4rem; }
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:.55rem;
+    min-height:60px; padding:.9rem 1.6rem; border-radius:var(--radius);
+    font-size:1.18rem; font-weight:800; text-decoration:none; cursor:pointer;
+    border:2px solid transparent; text-align:center; line-height:1.2;
+  }
+  .btn-gold{ background:var(--gold); color:#fff; }
+  .btn-gold:hover{ background:var(--gold-dark); }
+  .btn-ghost{ background:transparent; color:#fff; border-color:rgba(255,255,255,.7); }
+  .btn-ghost:hover{ background:rgba(255,255,255,.14); }
+  .btn-outline{ background:transparent; color:var(--navy); border-color:var(--navy); }
+  .btn-outline:hover{ background:var(--navy); color:#fff; }
+  .btn-block{ width:100%; }
+
+  .hero-usp{ list-style:none; margin:0; padding:0; display:grid; gap:.5rem; }
+  .hero-usp li{ display:flex; align-items:flex-start; gap:.55rem; font-size:1.05rem; color:#EAF0F5; }
+  .hero-usp .ck{ color:#fff; font-weight:900; flex:0 0 auto; }
+
+  /* ---- Formular ---- */
+  .form-sec{ background:var(--bg-soft); padding:2.4rem 0 3rem; }
+  .form-card{
+    background:#fff; border:1px solid var(--border); border-radius:16px;
+    box-shadow:0 12px 40px rgba(15,31,46,.10); max-width:620px; margin:0 auto; padding:1.8rem 1.6rem 2rem;
+  }
+  .form-card h2{ font-size:1.7rem; margin:0 0 .35rem; }
+  .form-lead{ margin:0 0 1.4rem; color:var(--steel); font-size:1.08rem; }
+  .form-lead strong{ color:var(--navy); }
+
+  .field{ margin-bottom:1.15rem; }
+  .field > .lbl{ display:block; font-weight:700; margin-bottom:.45rem; font-size:1.05rem; }
+  .field input[type=text], .field input[type=tel]{
+    width:100%; min-height:56px; padding:.7rem .9rem; font-size:1.12rem;
+    border:2px solid var(--border); border-radius:10px; color:var(--navy); background:#fff;
+  }
+  .field input:focus{ outline:none; border-color:var(--gold-dark); box-shadow:0 0 0 3px rgba(226,0,26,.22); }
+
+  .opts{ display:grid; grid-template-columns:1fr 1fr; gap:.6rem; }
+  .opt{ position:relative; }
+  .opt input{ position:absolute; opacity:0; width:100%; height:100%; margin:0; cursor:pointer; }
+  .opt span{
+    display:flex; align-items:center; min-height:56px; padding:.6rem .8rem; font-size:1.05rem; font-weight:600;
+    border:2px solid var(--border); border-radius:10px; background:#fff;
+  }
+  .opt input:checked + span{ border-color:var(--navy); background:#0F1F2E; color:#fff; }
+  .opt input:focus-visible + span{ box-shadow:0 0 0 3px rgba(226,0,26,.3); }
+
+  .consent{ display:flex; align-items:flex-start; gap:.65rem; font-size:.98rem; color:var(--steel); line-height:1.45; }
+  .consent input{ width:26px; height:26px; margin:.1rem 0 0; flex:0 0 auto; }
+  .consent a{ color:var(--navy); font-weight:700; }
+
+  .submit{
+    width:100%; min-height:62px; margin-top:.4rem; border:none; border-radius:12px;
+    background:var(--gold); color:#fff; font-size:1.22rem; font-weight:800; cursor:pointer;
+  }
+  .submit:hover{ background:var(--gold-dark); }
+  .submit:disabled{ opacity:.7; cursor:default; }
+
+  .or{ text-align:center; color:var(--steel); font-weight:700; margin:1.1rem 0; }
+  .form-status{ margin-top:.9rem; font-size:1rem; }
+  .form-status.is-err{ color:#B00020; font-weight:600; }
+  .hp{ position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden; }
+
+  .done{ text-align:center; padding:1rem .5rem; }
+  .done .big{ font-size:1.5rem; font-weight:800; margin:.3rem 0 .6rem; }
+  .done p{ color:var(--steel); margin:0 auto; max-width:38ch; }
+
+  /* ---- Trust-Bar ---- */
+  .trust{ padding:2rem 0; }
+  .trust-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; text-align:center; }
+  .trust-item .ic{ font-size:1.9rem; line-height:1; }
+  .trust-item .t{ font-weight:800; margin:.4rem 0 .15rem; font-size:1.05rem; }
+  .trust-item .d{ color:var(--steel); font-size:.95rem; }
+
+  /* ---- Im-Ohr-Foto (standalone) ---- */
+  .device-shot{ padding:40px 0 8px; background:#fff; }
+  .device-shot .container{ max-width:840px; }
+  .device-figure{ margin:0; }
+  .device-figure img{ width:100%; height:auto; border-radius:16px; box-shadow:0 18px 50px rgba(15,31,46,.16); display:block; }
+  .device-figure figcaption{ text-align:center; color:var(--steel); font-size:1.02rem; line-height:1.55; margin-top:16px; max-width:640px; margin-left:auto; margin-right:auto; }
+  .device-figure figcaption strong{ color:var(--navy); }
+
+  /* ---- Footer (nur Pflicht-Links) ---- */
+  .foot{ background:var(--navy); color:#C7D0D8; padding:2rem 0 6.5rem; font-size:1rem; }
+  .foot a{ color:#fff; }
+  .foot .row{ display:flex; flex-wrap:wrap; gap:1.4rem 2.4rem; justify-content:space-between; }
+  .foot h4{ color:#fff; margin:0 0 .4rem; font-size:1.05rem; }
+  .foot .legal{ margin-top:1.4rem; padding-top:1.2rem; border-top:1px solid rgba(255,255,255,.15); display:flex; flex-wrap:wrap; gap:1rem; justify-content:space-between; }
+  .foot .legal nav a{ margin-left:1.2rem; text-decoration:underline; }
+
+  /* ---- Sticky Call (Mobile) ---- */
+  .sticky-call{
+    position:fixed; left:0; right:0; bottom:0; z-index:1000; display:none;
+    align-items:center; justify-content:center; gap:.6rem;
+    background:var(--gold); color:#fff; text-decoration:none; font-weight:800; font-size:1.2rem;
+    padding:1rem; box-shadow:0 -4px 20px rgba(0,0,0,.2);
+  }
+
+  @media (max-width:860px){
+    .trust-grid{ grid-template-columns:1fr 1fr; gap:1.4rem 1rem; }
+  }
+  @media (max-width:640px){
+    body{ font-size:18px; }
+    .hero h1{ font-size:1.95rem; }
+    .hero .sub{ font-size:1.12rem; }
+    .cta-row .btn{ width:100%; }
+    .opts{ grid-template-columns:1fr; }
+    .top-call span.num{ display:none; }   /* auf Mobile Icon reicht, Sticky-Call übernimmt */
+    .sticky-call{ display:flex; }
+    .foot{ padding-bottom:6.5rem; }
+  }
+
+  /* ===== Übernommene Website-Blöcke (Komponenten-CSS) ===== */
+  .container{ max-width:1080px; margin:0 auto; padding:0 20px; }
+  .ms-sec{ padding:56px 0; }
+  .ms-sec.soft{ background:var(--bg-soft); }
+  .ms-sec h2{ font-size:clamp(1.6rem,3vw,2.4rem); line-height:1.2; color:var(--navy); margin:0 0 .4em; text-align:center; }
+  .ms-sec h3,.ms-sec h4{ color:var(--navy); }
+  .ms-sec > .container > p{ color:var(--navy); font-size:1.08rem; }
+  .section-title{ text-align:center; margin-bottom:44px; }
+  .section-title h2{ margin-bottom:.3em; }
+  .section-title p{ color:var(--muted); max-width:640px; margin:0 auto; font-size:1.08rem; }
+  .team-eyebrow{ font-size:.75rem; letter-spacing:.22em; text-transform:uppercase; color:var(--gold-dark); font-weight:700; margin:0 0 18px; }
+
+  .marken-grid{ display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:10px; margin:24px 0; }
+  .marke{ padding:8px 18px; border-radius:6px; font-size:.95rem; font-weight:700; white-space:nowrap; background:var(--navy); color:#fff; }
+  .marke-alt{ background:var(--bg-soft); color:var(--steel); border:1px solid var(--border); }
+  .svc-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:28px; text-align:left; }
+  .svc-card{ background:#fff; border:1.5px solid var(--border); border-radius:var(--radius); border-top:3px solid var(--gold); padding:24px 22px; }
+  .svc-card .svc-icon{ font-size:1.7rem; margin-bottom:8px; }
+  .svc-card h4{ margin:0 0 6px; font-size:1.2rem; }
+  .svc-card p{ margin:0; font-size:1rem; color:var(--steel); line-height:1.6; }
+  @media(max-width:760px){ .svc-grid{ grid-template-columns:1fr; } }
+
+  .steps-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+  .step-card{ background:#fff; border:1.5px solid var(--border); border-radius:var(--radius); padding:28px 22px 24px; text-align:center; }
+  .step-num{ width:56px; height:56px; border-radius:50%; background:var(--navy); color:#fff; font-size:1.2rem; font-weight:800; display:inline-flex; align-items:center; justify-content:center; margin:0 auto 16px; }
+  .step-card h3{ font-size:1.2rem; margin:0 0 .45em; }
+  .step-card p{ font-size:1rem; color:var(--muted); line-height:1.65; margin:0; }
+  .step-badge{ display:inline-block; margin-top:12px; padding:4px 12px; border-radius:999px; background:rgba(226,0,26,.10); color:var(--gold-dark); font-size:.88rem; font-weight:700; }
+  @media(max-width:700px){ .steps-grid{ grid-template-columns:1fr; gap:14px; } }
+
+  .diff-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:18px; text-align:left; }
+  .diff-card{ background:#fff; border:1.5px solid var(--border); border-radius:var(--radius); padding:22px 20px; display:flex; gap:14px; align-items:flex-start; }
+  .diff-icon{ flex-shrink:0; width:46px; height:46px; border-radius:8px; background:var(--navy); color:#fff; display:flex; align-items:center; justify-content:center; font-size:1.35rem; }
+  .diff-body h3{ font-size:1.1rem; font-weight:700; margin:0 0 .25em; }
+  .diff-body p{ font-size:1rem; color:var(--muted); margin:0; line-height:1.6; }
+  @media(max-width:680px){ .diff-grid{ grid-template-columns:1fr; } }
+
+  .section-features{ padding:56px 0; background:var(--bg-soft); }
+  .section-features .container.features{ max-width:640px; display:flex; flex-direction:column; align-items:center; gap:22px; }
+  .section-features .container+.container{ margin-top:36px; }
+  .feature-list{ display:grid; gap:12px; width:100%; margin:0; padding:0; list-style:none; }
+  .feature-list li{ padding-left:36px; position:relative; font-size:1.15rem; color:var(--navy); line-height:1.5; }
+  .feature-list li::before{ content:""; position:absolute; left:0; top:.05em; width:24px; height:24px; border-radius:50%; background:var(--gold) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><polyline points='20 6 9 17 4 12'/></svg>") no-repeat center/13px; }
+  .features-cta{ align-self:center; }
+
+  .kassen-section{ padding:48px 0; background:#fff; }
+  .kassen-label{ text-align:center; font-size:.78rem; text-transform:uppercase; letter-spacing:.14em; color:var(--steel); font-weight:700; margin-bottom:22px; }
+  .kassen-grid{ display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:10px; }
+  .kasse{ padding:8px 16px; border-radius:5px; font-size:.92rem; font-weight:700; white-space:nowrap; color:#fff; }
+  .kasse-tk{ background:#005EA8; } .kasse-aok{ background:#009B3A; } .kasse-barmer{ background:#7B1A2A; }
+  .kasse-dak{ background:#003F7F; } .kasse-kkh{ background:#00857C; } .kasse-hkk{ background:#D61518; }
+  .kasse-bkk{ background:#C00010; } .kasse-ikk{ background:#C0006A; } .kasse-knapp{ background:#003C96; }
+  .kasse-other{ background:var(--bg-soft); color:var(--steel); border:1px solid var(--border); }
+  .kassen-note{ text-align:center; margin-top:14px; font-size:.88rem; color:var(--steel); }
+</style>
+</head>
+<body>
+
+<!-- Promo-Bar -->
+<div class="promo-bar">Kostenloser Hörtest in Mayen — mit <strong>21 Tagen Hörerfolgsgarantie</strong></div>
+
+<header class="wrap top">
+  <a href="/"><img src="/images/logo.png" alt="Eifelohr – Hörakustik-Meisterbetrieb in Mayen" width="156" height="52"></a>
+  <a class="top-call" href="tel:+4926512822"><span class="ph" aria-hidden="true">📞</span><span class="num">02651&nbsp;2822</span></a>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <span class="badge">🎁 Kostenloser Hörtest &amp; Beratung</span>
+    <h1>Kostenloser Hörtest in Mayen</h1>
+    <p class="guarantee">mit <strong>21 Tagen Hörerfolgsgarantie</strong></p>
+    <p class="sub">Hörgeräte <strong>ab 0&nbsp;€</strong> · kostenloses Probetragen · alle Hersteller &amp; Kassen — <strong>markenunabhängig &amp; inhabergeführt</strong>.</p>
+    <div class="cta-row">
+      <a class="btn btn-gold" href="#form">Kostenlosen Hörtest vereinbaren</a>
+      <a class="btn btn-ghost" href="tel:+4926512822"><span aria-hidden="true">📞</span> 02651&nbsp;2822</a>
+    </div>
+    <ul class="hero-usp">
+      <li><span class="ck" aria-hidden="true">✓</span> Termin in wenigen Tagen – auch kurzfristig</li>
+      <li><span class="ck" aria-hidden="true">✓</span> Individuelle Anpassung auf Ihr Gehör</li>
+      <li><span class="ck" aria-hidden="true">✓</span> Persönliche Betreuung von A bis Z</li>
+      <li><span class="ck" aria-hidden="true">✓</span> Partner aller Krankenkassen &amp; privaten Versicherungen</li>
+    </ul>
+  </div>
+</section>
+
+<section class="device-shot">
+  <div class="container">
+    <figure class="device-figure">
+      <img src="/images/im-ohr-winzig.jpg" alt="Winziges Im-Ohr-Hörgerät zwischen den Fingern gehalten — kaum größer als eine Fingerspitze" width="1400" height="905">
+      <figcaption><strong>So klein ist unser Im-Ohr-Gerät.</strong> Kaum größer als eine Fingerspitze — und im Ohr für andere praktisch unsichtbar.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="form-sec" id="form">
+  <div class="wrap">
+    <div class="form-card">
+      <h2>Kostenlosen Termin anfragen</h2>
+      <p class="form-lead">Sie geben nur Name &amp; Telefon an – wir rufen Sie zurück. Kein Kaufzwang, kein Zeitdruck.</p>
+
+      <form id="lpForm" novalidate
+            data-endpoint="https://script.google.com/macros/s/AKfycbwRave4OJzYsQJzO5WGxit5KVs94dTJig-aozLwHMmGFc7qhD7R_xYycwXA0R2BkiAB/exec">
+
+        <div class="field">
+          <span class="lbl">Worum geht es?</span>
+          <div class="opts" role="radiogroup" aria-label="Anliegen">
+            <label class="opt"><input type="radio" name="Anliegen" value="Kostenloser Hörtest" checked><span>Kostenloser Hörtest</span></label>
+            <label class="opt"><input type="radio" name="Anliegen" value="Beratung zu Hörgeräten"><span>Beratung Hörgeräte</span></label>
+            <label class="opt"><input type="radio" name="Anliegen" value="Gehörschutz"><span>Gehörschutz</span></label>
+            <label class="opt"><input type="radio" name="Anliegen" value="Sonstiges"><span>Etwas anderes</span></label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="lbl" for="f-name">Ihr Name <span aria-hidden="true">*</span></label>
+          <input id="f-name" type="text" name="Name" required autocomplete="name" autocapitalize="words">
+        </div>
+
+        <div class="field">
+          <label class="lbl" for="f-tel">Telefonnummer <span aria-hidden="true">*</span></label>
+          <input id="f-tel" type="tel" name="Telefon" required autocomplete="tel" inputmode="tel" placeholder="z. B. 0176 1234567">
+        </div>
+
+        <div class="field">
+          <label class="consent"><input type="checkbox" name="consent" required> <span>Ich habe die <a href="/datenschutz.html" target="_blank" rel="noopener">Datenschutzerklärung</a> gelesen und bin mit der Verarbeitung meiner Daten einverstanden. <span aria-hidden="true">*</span></span></label>
+        </div>
+
+        <!-- versteckte Felder -->
+        <input type="hidden" name="Sprache" value="Deutsch">
+        <input type="hidden" name="Kampagne" value="Termin-Landingpage">
+        <input type="hidden" name="Quelle" value="Google Ads Landingpage (/termin)">
+        <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button type="submit" class="submit">Kostenlosen Termin anfragen</button>
+        <div class="form-status" role="alert"></div>
+      </form>
+
+      <div class="or">— oder —</div>
+      <a class="btn btn-outline btn-block" href="tel:+4926512822"><span aria-hidden="true">📞</span> Direkt anrufen: 02651&nbsp;2822</a>
+
+      <div class="done" id="formDone" hidden>
+        <div style="font-size:2.4rem" aria-hidden="true">✅</div>
+        <div class="big">Vielen Dank – wir melden uns!</div>
+        <p>Ihre Anfrage ist bei uns eingegangen. Wir rufen Sie zeitnah zurück. Möchten Sie sofort sprechen? <a href="tel:+4926512822" style="color:var(--navy);font-weight:800">02651&nbsp;2822</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap trust">
+  <div class="trust-grid">
+    <div class="trust-item"><div class="ic" aria-hidden="true">🤝</div><div class="t">Markenunabhängig &amp; inhabergeführt</div><div class="d">Ehrliche Beratung ohne Konzernvorgaben</div></div>
+    <div class="trust-item"><div class="ic" aria-hidden="true">🎓</div><div class="t">Meisterbetrieb</div><div class="d">Für Hörakustik in Mayen</div></div>
+    <div class="trust-item"><div class="ic" aria-hidden="true">🅿️</div><div class="t">Kostenlose Parkplätze</div><div class="d">Zentral in Mayen</div></div>
+    <div class="trust-item"><div class="ic" aria-hidden="true">📍</div><div class="t">Mitten in Mayen</div><div class="d">Am Brückentor 15</div></div>
+  </div>
+</section>
+
+<!-- ===== Übernommene Blöcke von der Hauptseite ===== -->
+<section class="ms-sec">
+  <div class="container" style="max-width:900px;text-align:center">
+    <p class="team-eyebrow">Herstellerunabhängig</p>
+    <h2>Alle führenden Marken — Wartung auch für woanders gekaufte Geräte</h2>
+    <div class="marken-grid">
+      <span class="marke">Phonak</span>
+      <span class="marke">Signia</span>
+      <span class="marke">Oticon</span>
+      <span class="marke">Widex</span>
+      <span class="marke">Starkey</span>
+      <span class="marke">GN ReSound</span>
+      <span class="marke">Bernafon</span>
+      <span class="marke">Unitron</span>
+      <span class="marke marke-alt">+ alle weiteren</span>
+    </div>
+    <p style="max-width:760px;margin:0 auto">Wir sind <strong>herstellerunabhängig</strong> und beraten Sie zu Hörgeräten aller führenden Marken — ganz ohne Konzern-Hausmarke. Und das Beste: <strong>Unabhängig davon, wo Sie Ihr Hörgerät gekauft haben, warten und reparieren wir es.</strong> Auch wenn Ihr Phonak, Signia oder Oticon von einem anderen Akustiker oder online stammt, sind Sie bei uns in Mayen herzlich willkommen.</p>
+    <div class="svc-grid">
+      <div class="svc-card"><div class="svc-icon">🔧</div><h4>Reparatur &amp; Wartung</h4><p>Reinigung, Funktionskontrolle und Reparatur für Geräte aller Hersteller — auch für Fremdgeräte, die Sie nicht bei uns gekauft haben.</p></div>
+      <div class="svc-card"><div class="svc-icon">🔋</div><h4>Batterien &amp; Zubehör</h4><p>Hörgerätebatterien, Filter, Schirmchen, Trockenkapseln und Pflegemittel — passend für alle gängigen Marken, direkt vor Ort.</p></div>
+      <div class="svc-card"><div class="svc-icon">🎚️</div><h4>Feinanpassung</h4><p>Sitzt Ihr Gerät nicht optimal oder klingt es nicht rund? Wir justieren nach — mit der Eifelohr-Target-Methode, auch bei bestehenden Hörgeräten.</p></div>
+    </div>
+    <div style="margin-top:28px"><a href="#form" class="btn btn-gold">Jetzt Termin vereinbaren</a></div>
+  </div>
+</section>
+
+<section class="ms-sec soft">
+  <div class="container">
+    <div class="section-title">
+      <h2>In 3 Schritten zu Ihrem Hörgerät</h2>
+      <p>Einfach. Persönlich. Ohne Risiko. — Und das schon ab Ihrem ersten Besuch.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card"><div class="step-num">01</div><h3>Kostenloser Hörtest</h3><p>Ein professioneller Hörtest beim Eifelohr zeigt in 15 Minuten, wie gut Sie hören — kostenlos, ohne HNO-Rezept und ohne Voranmeldung nötig.</p><span class="step-badge">Kostenlos &amp; unverbindlich</span></div>
+      <div class="step-card"><div class="step-num">02</div><h3>Persönliche Beratung</h3><p>Johannes bespricht mit Ihnen Ihren Alltag, Ihre Hörsituationen und Wünsche. Wir zeigen Ihnen passende Hörsysteme — von Nulltarif bis High-End.</p><span class="step-badge">Inhabergeführt &amp; individuell</span></div>
+      <div class="step-card"><div class="step-num">03</div><h3>21 Tage Probetragen</h3><p>Tragen Sie Ihr Hörgerät 21 Tage lang in Ihrem echten Alltag. Mit unserer Hörerfolgsgarantie: Wenn Sie nicht überzeugt sind, geben Sie es zurück — kein Risiko.</p><span class="step-badge">Garantierter Hörerfolg</span></div>
+    </div>
+    <div style="text-align:center;margin-top:36px"><a href="#form" class="btn btn-gold">Jetzt Probetragen vereinbaren</a></div>
+  </div>
+</section>
+
+<section class="ms-sec soft">
+  <div class="container">
+    <div class="section-title">
+      <h2>Warum Eifelohr — und nicht die Kette?</h2>
+      <p>Was uns von Filialisten unterscheidet: Persönlichkeit, Methode und echter Einsatz für Ihren Hörerfolg.</p>
+    </div>
+    <div class="diff-grid">
+      <div class="diff-card"><div class="diff-icon">👤</div><div class="diff-body"><h3>Inhabergeführt — Johannes persönlich</h3><p>Johannes kennt Sie, Ihre Hörgeschichte und Ihren Alltag — von der ersten Beratung bis zur langfristigen Nachsorge.</p></div></div>
+      <div class="diff-card"><div class="diff-icon">🎯</div><div class="diff-body"><h3>Eifelohr-Target — unsere Anpassungsmethode</h3><p>Kein Kettenstandard. Mit einer Messung direkt in Ihrem Gehörgang kalibrieren wir Ihr Hörgerät exakt auf Ihre persönliche Zielkurve — für ein natürlicheres Hörerlebnis von Anfang an.</p></div></div>
+      <div class="diff-card"><div class="diff-icon">🚫</div><div class="diff-body"><h3>Kein Konzern. Kein Verkaufsdruck.</h3><p>Wir haben keine Umsatzziele eines Konzerns im Rücken. Wir empfehlen Ihnen das Hörgerät, das wirklich zu Ihnen passt — auch wenn das das günstigere Modell ist.</p></div></div>
+      <div class="diff-card"><div class="diff-icon">📍</div><div class="diff-body"><h3>Mayen — im Herzen der Eifel</h3><p>Kurze Wege statt langer Anfahrt: Wir sind zentral in Mayen für die ganze Region. Persönliche Beratung und Nachsorge ohne großen Aufwand.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-features">
+  <div class="container features">
+    <ul class="feature-list">
+      <li>Hörgeräte bereits ab 0&nbsp;€* möglich</li>
+      <li>Hausbesuche in der Region</li>
+      <li>Von Nulltarif bis High-End Hörsysteme</li>
+      <li>Hörerfolg mit der Eifelohr-Target Anpassung</li>
+      <li>Beste Sprachverständlichkeit — auch in Gruppen</li>
+      <li>21 Tage Hörerfolgsgarantie</li>
+    </ul>
+    <a href="#form" class="btn btn-gold features-cta">Jetzt Probetragen vereinbaren</a>
+  </div>
+  <div class="container features">
+    <ul class="feature-list">
+      <li>0&nbsp;% Finanzierung</li>
+      <li>Nur neueste Modelle führender Hersteller</li>
+      <li>Kostenloser Hörtest &amp; Alltagsanalyse</li>
+      <li>Partner aller Krankenkassen &amp; privaten Versicherungen</li>
+      <li>Hausbesuche für eingeschränkte Mobilität</li>
+    </ul>
+    <a href="tel:+4926512822" class="btn btn-outline features-cta"><span aria-hidden="true">📞</span> Direkt anrufen</a>
+  </div>
+</section>
+
+<section class="kassen-section">
+  <div class="container">
+    <p class="kassen-label">Partner aller gesetzlichen Krankenkassen — Ihre Kasse zahlt mit</p>
+    <div class="kassen-grid">
+      <span class="kasse kasse-tk">TK</span>
+      <span class="kasse kasse-aok">AOK</span>
+      <span class="kasse kasse-barmer">Barmer</span>
+      <span class="kasse kasse-dak">DAK-Gesundheit</span>
+      <span class="kasse kasse-kkh">KKH</span>
+      <span class="kasse kasse-hkk">hkk</span>
+      <span class="kasse kasse-bkk">BKK</span>
+      <span class="kasse kasse-ikk">IKK</span>
+      <span class="kasse kasse-knapp">Knappschaft</span>
+      <span class="kasse kasse-other">+ alle weiteren Kassen</span>
+    </div>
+    <p class="kassen-note">Wir rechnen direkt mit Ihrer gesetzlichen Krankenkasse ab — Sie kümmern sich um nichts.</p>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="row">
+      <div>
+        <h4>Eifelohr</h4>
+        Am Brückentor 15<br>56727 Mayen<br>
+        <a href="tel:+4926512822">02651&nbsp;2822</a> · <a href="mailto:hi@eifelohr.de">hi@eifelohr.de</a>
+      </div>
+      <div>
+        <h4>Öffnungszeiten</h4>
+        Montag – Freitag: 09:00 – 18:00 Uhr<br>
+        Sowie nach Vereinbarung
+      </div>
+    </div>
+    <div class="legal">
+      <span>© <span id="year">2026</span> Eifelohr</span>
+      <nav aria-label="Rechtliches"><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a></nav>
+    </div>
+  </div>
+</footer>
+
+<a class="sticky-call" href="tel:+4926512822"><span aria-hidden="true">📞</span> Jetzt anrufen: 02651&nbsp;2822</a>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  (function(){
+    var form = document.getElementById('lpForm');
+    var status = form.querySelector('.form-status');
+    var done = document.getElementById('formDone');
+    var submitBtn = form.querySelector('.submit');
+
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      if (form._gotcha && form._gotcha.value) { return; }          // Honeypot
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      submitBtn.disabled = true; submitBtn.textContent = 'Wird gesendet …';
+      status.className = 'form-status'; status.textContent = '';
+
+      fetch(form.getAttribute('data-endpoint'), {
+        method: 'POST', mode: 'no-cors', body: new FormData(form)
+      }).then(function(){
+        form.style.display = 'none';
+        done.hidden = false;
+        try { window.dataLayer = window.dataLayer || []; dataLayer.push({ event:'generate_lead', method:'form' }); } catch(e){}
+        done.scrollIntoView({ behavior:'smooth', block:'center' });
+      }).catch(function(){
+        submitBtn.disabled = false; submitBtn.textContent = 'Kostenlosen Termin anfragen';
+        status.className = 'form-status is-err';
+        status.innerHTML = 'Leider ist etwas schiefgelaufen. Bitte rufen Sie uns direkt an: <a href="tel:+4926512822">02651&nbsp;2822</a>.';
+      });
+    });
+
+    // Telefon-Klicks als Event (für Google-Ads-/GTM-Conversion nutzbar)
+    Array.prototype.forEach.call(document.querySelectorAll('a[href^="tel:"]'), function(a){
+      a.addEventListener('click', function(){
+        try { window.dataLayer = window.dataLayer || []; dataLayer.push({ event:'phone_click' }); } catch(e){}
+      });
+    });
+  })();
+</script>
+<!-- Consent-Banner: lädt GTM erst nach Einwilligung (identisch zur Hauptseite) -->
+<script src="/cookie-banner.js" defer></script>
+</body>
+</html>
