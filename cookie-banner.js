@@ -51,7 +51,7 @@
           '<strong>Cookies & Datenschutz</strong>' +
           '<p>Diese Website verwendet Cookies, um Ihnen die bestmögliche Nutzererfahrung zu bieten. ' +
           'Notwendige Cookies sind immer aktiv. Optionale Cookies für Statistik &amp; Marketing (über Google Tag Manager) laden wir erst nach Ihrer Zustimmung. ' +
-          'Mehr erfahren Sie in unserer <a href="datenschutz.html">Datenschutzerklärung</a>.</p>' +
+          'Mehr erfahren Sie in unserer <a href="datenschutz">Datenschutzerklärung</a>.</p>' +
         '</div>' +
         '<div id="cookie-banner-actions">' +
           '<button id="cookie-accept" class="btn btn-primary">Alle akzeptieren</button>' +
