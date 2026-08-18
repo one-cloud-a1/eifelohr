@@ -1,11 +1,29 @@
 {
-  "updated": "2026-08-11T05:21:03.224Z",
+  "updated": "2026-08-18T04:50:05.531Z",
   "place_id": "ChIJ6-4CzglbvkcRk6_lGbinuFE",
   "name": "Eifelohr der Akustiker",
   "rating": 5,
-  "total": 131,
+  "total": 133,
   "url": "https://maps.google.com/?cid=5888640921937227667",
   "reviews": [
+    {
+      "author_name": "Silvia Kersten",
+      "author_url": "https://www.google.com/maps/contrib/117343905743253080735/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWj8LRQADOootxtm2JLn8jGuV6o6-G_w46l6a4lR1V_PWnmaUwt=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "text": "Bin seit 2019 Kunde bei Reinnarth/Eifelohr.\nService, Beratung, Freundlichkeit und Termintreue - alles vorhanden:)\n\nKomme sehr gut zurecht mit den mir empfohlenen Hörhilfen. Was will man mehr :)",
+      "relative_time": "in der letzten Woche",
+      "time": 1786477397
+    },
+    {
+      "author_name": "Elke Dietl",
+      "author_url": "https://www.google.com/maps/contrib/101573587098879316695/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXYhCYQDajvulTC1f6HuFY8EeGyrfIeNABi5sWh64afWGGg_2QH=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "text": "Sehr gut beraten worden, konnte über längere Zeit Zeit testen. Ein Gerät wurde nochmal angepasst. Super nettes und kompetentes Team , sehr zu empfehlen.",
+      "relative_time": "in der letzten Woche",
+      "time": 1786452977
+    },
     {
       "author_name": "Wolfgang Fuchs",
       "author_url": "https://www.google.com/maps/contrib/108349177204737897745/reviews",
@@ -32,24 +50,6 @@
       "text": "Sehr freundliche und verständliche Beratung, auch bei fachlich speziellen Fragen. Auch bei Problemen gab es sofort Hilfe. Vielen Dank!",
       "relative_time": "vor 3 Monaten",
       "time": 1777027544
-    },
-    {
-      "author_name": "Michael Thelen",
-      "author_url": "https://www.google.com/maps/contrib/118283199923974288889/reviews",
-      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKtq7HE2GvNl8o1VomPNVmSJX7PS4dacJnOZJx1MerSSkF95w=s128-c0x00000000-cc-rp-mo",
-      "rating": 5,
-      "text": "Wegen des Usher-Syndroms habe ich einen sehr starken Hörverlust. Dieser kann nur mit sehr leistungsstarken Geräten verbessert werden. Zudem sind umfangreiche Anpassungen der Geräten an die persönlichen Bedürfnisse erforderlich.\nReinnarth Hörgeräte hat hier fachlich kompetent beraten und unterstützt.  Auch auf die persönlichen Bedürfnisse ist man eingegangen und hat diese berücksichtigt.\nHierfür meinen herzlichen Dank.\nReinnarth Hörgeräte kann und werde ich sehr gerne weiterempfehlen.",
-      "relative_time": "vor 4 Monaten",
-      "time": 1775981319
-    },
-    {
-      "author_name": "walter faber",
-      "author_url": "https://www.google.com/maps/contrib/109675587245012560680/reviews",
-      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocI0rBQtgq1_Y5-Ryyda9o21FkTRa161_m8iVmodXQ_6pB7flw=s128-c0x00000000-cc-rp-mo",
-      "rating": 5,
-      "text": "Mein schlechtes hören, führte mich zu Reinnarth Hörgerät, und das war eine sehr gute Entscheidung!\nIch kann nur sagen, hier fühlt man sich sofort in den richtigen Händen.\nSuper kompetentes Team, sehr gute Beratung.\nEs wurde sich sehr viel Zeit genommen, die Hörgeräte auf meine Bedürfnisse einzustellen.\nIch kann nur sagen ein super Team.",
-      "relative_time": "vor 5 Monaten",
-      "time": 1771331561
     }
   ]
 }
