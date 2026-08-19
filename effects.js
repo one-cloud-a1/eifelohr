@@ -1,15 +1,17 @@
-// Datums-Schalter: Elemente mit data-show-from="YYYY-MM-DD" erscheinen erst ab diesem Datum.
+// Datums-Schalter: data-show-from="YYYY-MM-DD" erscheint ab Datum, data-hide-from verschwindet ab Datum.
 (function () {
-  var gated = document.querySelectorAll('[data-show-from]');
-  if (!gated.length) return;
   var now = new Date();
-  Array.prototype.forEach.call(gated, function (el) {
+  Array.prototype.forEach.call(document.querySelectorAll('[data-show-from]'), function (el) {
     var from = new Date(el.getAttribute('data-show-from') + 'T00:00:00');
     if (!isNaN(from.getTime()) && now >= from) {
       el.style.display = '';
       el.classList.add('in');
       Array.prototype.forEach.call(el.querySelectorAll('.reveal, .reveal-stagger'), function (c) { c.classList.add('in'); });
     }
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('[data-hide-from]'), function (el) {
+    var from = new Date(el.getAttribute('data-hide-from') + 'T00:00:00');
+    if (!isNaN(from.getTime()) && now >= from) { el.style.display = 'none'; }
   });
 })();
 
