@@ -1,11 +1,38 @@
 {
-  "updated": "2026-09-22T09:17:11.731Z",
+  "updated": "2026-09-29T10:39:42.096Z",
   "place_id": "ChIJ6-4CzglbvkcRk6_lGbinuFE",
   "name": "Eifelohr der Akustiker",
-  "rating": 5,
-  "total": 134,
+  "rating": 4.9,
+  "total": 136,
   "url": "https://maps.google.com/?cid=5888640921937227667",
   "reviews": [
+    {
+      "author_name": "Wolfgang Podewils",
+      "author_url": "https://www.google.com/maps/contrib/108542255031472492496/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIqigOe0Surx4_0vsY1Katld5LyzvikY0UNpoOea3zDd0a8xw=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "text": "1a Beratung u. dementsprechende Ausführung der erforderlichen Maßnahmen, um wieder an allem teilzunehmen.\nBesten Dank",
+      "relative_time": "in der letzten Woche",
+      "time": 1790345901
+    },
+    {
+      "author_name": "Bernhard Jung",
+      "author_url": "https://www.google.com/maps/contrib/117443383187979362602/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLwbCgueztvbSyvhwbyrHjhlQU9jGX_lS0XYugHOGlqczd1JQ=s128-c0x00000000-cc-rp-mo",
+      "rating": 4,
+      "text": "Immer sehr Gut betaten",
+      "relative_time": "in der letzten Woche",
+      "time": 1790323638
+    },
+    {
+      "author_name": "Petra Kollig",
+      "author_url": "https://www.google.com/maps/contrib/107170605462074391845/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIAzIAlyJh2FcPEj-jd5fkm2msCOWi2_Qi4xW2pOZlM0KkVNg=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "text": "Freundliches und hilfsbereites Team und sehr gute Beratung und Betreuung.",
+      "relative_time": "vor einer Woche",
+      "time": 1789839366
+    },
     {
       "author_name": "Silvia Kersten",
       "author_url": "https://www.google.com/maps/contrib/117343905743253080735/reviews",
@@ -23,33 +50,6 @@
       "text": "Sehr gut beraten worden, konnte über längere Zeit Zeit testen. Ein Gerät wurde nochmal angepasst. Super nettes und kompetentes Team , sehr zu empfehlen.",
       "relative_time": "vor einem Monat",
       "time": 1786452977
-    },
-    {
-      "author_name": "Wolfgang Fuchs",
-      "author_url": "https://www.google.com/maps/contrib/108349177204737897745/reviews",
-      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJol3OY2cWIy7q7mB28H-J4y0RvWwMPgCAb6l2ZcawJ4jH59w=s128-c0x00000000-cc-rp-mo",
-      "rating": 5,
-      "text": "Voll zufrieden. Kein Drängen zum teuersten Produkt. Beratung ausschließlich bedarfsorientiert.",
-      "relative_time": "vor 2 Monaten",
-      "time": 1783625164
-    },
-    {
-      "author_name": "Susanne Hahn",
-      "author_url": "https://www.google.com/maps/contrib/105233630578694496948/reviews",
-      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX3KKiGXv9i2yoDGTjSebxDjLEhg0dz9GvFBzmpLATx_EtxEUX6=s128-c0x00000000-cc-rp-mo",
-      "rating": 5,
-      "text": "Da ärztlich festgestellt wurde, dass ich schlecht höre, bin ich durch Zufall an Eifelohr, ehemals Fa. Reinnarth gekommen.\nDie Beratung war sehr gut und kompetent.\nDer Mitarbeiter hat sich sehr viel Zeit genommen und es wurden gründliche Hörtests durchgeführt. Ich durfte dann 2 Wochen ein Hörgerät testen und habe mich danach aufgrund der sehr guten Qualität für Eifelohr entschieden. Ich kann das Team von Eifelohr, ehemals Reinnarth sehr empfehlen.",
-      "relative_time": "vor 2 Monaten",
-      "time": 1783405589
-    },
-    {
-      "author_name": "Mieke",
-      "author_url": "https://www.google.com/maps/contrib/118385273624678491071/reviews",
-      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIOIT4IWZ_taI6BhPYZAmKGz4QLIoJwoS_j5bLvvo8yeFTpHQ=s128-c0x00000000-cc-rp-mo",
-      "rating": 5,
-      "text": "Sehr freundliche und verständliche Beratung, auch bei fachlich speziellen Fragen. Auch bei Problemen gab es sofort Hilfe. Vielen Dank!",
-      "relative_time": "vor 5 Monaten",
-      "time": 1777027544
     }
   ]
 }
