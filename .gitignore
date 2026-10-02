@@ -7,3 +7,5 @@ mobile-*.png
 _tools/
 og-template.html
 .DS_Store
+
+.claude/
