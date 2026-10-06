@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T10:39:42.096Z",
+  "updated": "2026-10-06T11:15:07.079Z",
   "place_id": "ChIJ6-4CzglbvkcRk6_lGbinuFE",
   "name": "Eifelohr der Akustiker",
   "rating": 4.9,
@@ -7,12 +7,21 @@
   "url": "https://maps.google.com/?cid=5888640921937227667",
   "reviews": [
     {
+      "author_name": "Petra Kollig",
+      "author_url": "https://www.google.com/maps/contrib/107170605462074391845/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIAzIAlyJh2FcPEj-jd5fkm2msCOWi2_Qi4xW2pOZlM0KkVNg=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "text": "Freundliches und hilfsbereites Team und sehr gute Beratung und Betreuung.",
+      "relative_time": "in der letzten Woche",
+      "time": 1790764434
+    },
+    {
       "author_name": "Wolfgang Podewils",
       "author_url": "https://www.google.com/maps/contrib/108542255031472492496/reviews",
       "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIqigOe0Surx4_0vsY1Katld5LyzvikY0UNpoOea3zDd0a8xw=s128-c0x00000000-cc-rp-mo-ba2",
       "rating": 5,
       "text": "1a Beratung u. dementsprechende Ausführung der erforderlichen Maßnahmen, um wieder an allem teilzunehmen.\nBesten Dank",
-      "relative_time": "in der letzten Woche",
+      "relative_time": "vor einer Woche",
       "time": 1790345901
     },
     {
@@ -21,17 +30,8 @@
       "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLwbCgueztvbSyvhwbyrHjhlQU9jGX_lS0XYugHOGlqczd1JQ=s128-c0x00000000-cc-rp-mo",
       "rating": 4,
       "text": "Immer sehr Gut betaten",
-      "relative_time": "in der letzten Woche",
-      "time": 1790323638
-    },
-    {
-      "author_name": "Petra Kollig",
-      "author_url": "https://www.google.com/maps/contrib/107170605462074391845/reviews",
-      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIAzIAlyJh2FcPEj-jd5fkm2msCOWi2_Qi4xW2pOZlM0KkVNg=s128-c0x00000000-cc-rp-mo",
-      "rating": 5,
-      "text": "Freundliches und hilfsbereites Team und sehr gute Beratung und Betreuung.",
       "relative_time": "vor einer Woche",
-      "time": 1789839366
+      "time": 1790323638
     },
     {
       "author_name": "Silvia Kersten",
