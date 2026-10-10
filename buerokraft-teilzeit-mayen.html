@@ -65,13 +65,15 @@
   .job-card .btn { margin-top: 1.5rem; }
   .jobs-intro { max-width: 720px; margin: 0 auto 3rem; text-align: center; }
   .benefit-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1.25rem;
     max-width: 920px;
     margin: 2.5rem auto 0;
   }
   .benefit-item {
+    flex: 0 1 260px;
     background: var(--color-surface, #fff);
     border: 1.5px solid var(--color-border, #e8e8e8);
     border-radius: 14px;
