@@ -1,18 +1,27 @@
 {
-  "updated": "2026-10-20T09:23:54.886Z",
+  "updated": "2026-10-27T09:47:24.240Z",
   "place_id": "ChIJ6-4CzglbvkcRk6_lGbinuFE",
   "name": "Eifelohr der Akustiker",
   "rating": 4.9,
-  "total": 135,
+  "total": 136,
   "url": "https://maps.google.com/?cid=5888640921937227667",
   "reviews": [
+    {
+      "author_name": "Hans Jürgen Damke",
+      "author_url": "https://www.google.com/maps/contrib/111217168270874951439/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIwnSS_6sTWXppK3tTTeBlq5pQIGZkVHAy7i6OTlWUV38JvtA=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "text": "",
+      "relative_time": "in der letzten Woche",
+      "time": 1792996924
+    },
     {
       "author_name": "Petra Kollig",
       "author_url": "https://www.google.com/maps/contrib/107170605462074391845/reviews",
       "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIAzIAlyJh2FcPEj-jd5fkm2msCOWi2_Qi4xW2pOZlM0KkVNg=s128-c0x00000000-cc-rp-mo",
       "rating": 5,
       "text": "Freundliches und hilfsbereites Team und sehr gute Beratung und Betreuung.",
-      "relative_time": "vor 2 Wochen",
+      "relative_time": "vor 3 Wochen",
       "time": 1790764434
     },
     {
@@ -21,7 +30,7 @@
       "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIqigOe0Surx4_0vsY1Katld5LyzvikY0UNpoOea3zDd0a8xw=s128-c0x00000000-cc-rp-mo-ba2",
       "rating": 5,
       "text": "1a Beratung u. dementsprechende Ausführung der erforderlichen Maßnahmen, um wieder an allem teilzunehmen.\nBesten Dank",
-      "relative_time": "vor 3 Wochen",
+      "relative_time": "vor einem Monat",
       "time": 1790345901
     },
     {
@@ -30,7 +39,7 @@
       "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLwbCgueztvbSyvhwbyrHjhlQU9jGX_lS0XYugHOGlqczd1JQ=s128-c0x00000000-cc-rp-mo",
       "rating": 4,
       "text": "Immer sehr Gut betaten",
-      "relative_time": "vor 3 Wochen",
+      "relative_time": "vor einem Monat",
       "time": 1790323638
     },
     {
@@ -41,15 +50,6 @@
       "text": "Bin seit 2019 Kunde bei Reinnarth/Eifelohr.\nService, Beratung, Freundlichkeit und Termintreue - alles vorhanden:)\n\nKomme sehr gut zurecht mit den mir empfohlenen Hörhilfen. Was will man mehr :)",
       "relative_time": "vor 2 Monaten",
       "time": 1786477397
-    },
-    {
-      "author_name": "Elke Dietl",
-      "author_url": "https://www.google.com/maps/contrib/101573587098879316695/reviews",
-      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXYhCYQDajvulTC1f6HuFY8EeGyrfIeNABi5sWh64afWGGg_2QH=s128-c0x00000000-cc-rp-mo",
-      "rating": 5,
-      "text": "Sehr gut beraten worden, konnte über längere Zeit Zeit testen. Ein Gerät wurde nochmal angepasst. Super nettes und kompetentes Team , sehr zu empfehlen.",
-      "relative_time": "vor 2 Monaten",
-      "time": 1786452977
     }
   ]
 }
