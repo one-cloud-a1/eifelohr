@@ -1,18 +1,27 @@
 {
-  "updated": "2026-11-03T11:54:35.972Z",
+  "updated": "2026-11-10T12:36:09.387Z",
   "place_id": "ChIJ6-4CzglbvkcRk6_lGbinuFE",
   "name": "Eifelohr der Akustiker",
   "rating": 4.9,
-  "total": 136,
+  "total": 137,
   "url": "https://maps.google.com/?cid=5888640921937227667",
   "reviews": [
+    {
+      "author_name": "Barbara Cardinal",
+      "author_url": "https://www.google.com/maps/contrib/115574828840477176019/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIuKqQlSnZzLY9u723CejLDXv5cnFDT5t9Vh39Wk0QIt9cXqQ=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "text": "Sehr freundliche und kompetente Beratung! So habe ich die für mich passenden Hörgeräte gefunden. Ich bin sehr zufrieden, die Eingewöhnungsphase war sehr kurz, und ich kann das Eifelohr uneingeschränkt empfehlen.",
+      "relative_time": "in der letzten Woche",
+      "time": 1793963975
+    },
     {
       "author_name": "Hans Jürgen Damke",
       "author_url": "https://www.google.com/maps/contrib/111217168270874951439/reviews",
       "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIwnSS_6sTWXppK3tTTeBlq5pQIGZkVHAy7i6OTlWUV38JvtA=s128-c0x00000000-cc-rp-mo",
       "rating": 5,
       "text": "",
-      "relative_time": "vor einer Woche",
+      "relative_time": "vor 2 Wochen",
       "time": 1792996924
     },
     {
@@ -41,15 +50,6 @@
       "text": "Immer sehr Gut betaten",
       "relative_time": "vor einem Monat",
       "time": 1790323638
-    },
-    {
-      "author_name": "Silvia Kersten",
-      "author_url": "https://www.google.com/maps/contrib/117343905743253080735/reviews",
-      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWj8LRQADOootxtm2JLn8jGuV6o6-G_w46l6a4lR1V_PWnmaUwt=s128-c0x00000000-cc-rp-mo",
-      "rating": 5,
-      "text": "Bin seit 2019 Kunde bei Reinnarth/Eifelohr.\nService, Beratung, Freundlichkeit und Termintreue - alles vorhanden:)\n\nKomme sehr gut zurecht mit den mir empfohlenen Hörhilfen. Was will man mehr :)",
-      "relative_time": "vor 2 Monaten",
-      "time": 1786477397
     }
   ]
 }
