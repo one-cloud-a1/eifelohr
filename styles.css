@@ -467,6 +467,38 @@ button:focus-visible,a:focus-visible{
 .footer-legal nav{display:flex;gap:20px}
 .footer-legal a{color:rgba(255,255,255,.5)}
 .footer-legal a:hover{color:#fff}
+/* Footer award badge (STILPUNKTE) */
+.footer-award{
+  display:flex;align-items:center;gap:16px;
+  margin:0 auto 28px;padding-bottom:28px;max-width:560px;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.footer-award img{
+  width:56px;height:56px;flex-shrink:0;border-radius:6px;display:block;
+}
+.footer-award p{
+  margin:0;font-size:.8rem;line-height:1.55;color:rgba(255,255,255,.6);
+}
+.footer-award strong{color:var(--gold);font-weight:600}
+@media (max-width:480px){.footer-award{flex-direction:column;text-align:center;gap:12px}}
+
+/* Auszeichnung / Award highlight section (STILPUNKTE) */
+.award-section{background:var(--navy);color:#fff}
+.award-inner{
+  display:grid;grid-template-columns:200px 1fr;gap:56px;align-items:center;
+}
+.award-media img{
+  width:200px;height:200px;border-radius:10px;display:block;
+  box-shadow:0 18px 40px rgba(0,0,0,.35);
+  outline:1px solid rgba(255,255,255,.12);outline-offset:-1px;
+}
+.award-body .team-eyebrow{color:var(--gold)}
+.award-body h2{color:#fff;font-size:clamp(1.6rem,2.8vw,2.2rem);margin-bottom:18px}
+.award-body p{color:rgba(255,255,255,.82);font-size:1rem;line-height:1.85;margin-bottom:1em}
+.award-body p:last-child{margin-bottom:0}
+@media (max-width:760px){
+  .award-inner{grid-template-columns:1fr;gap:28px;justify-items:center;text-align:center}
+}
 
 /* Comparison table (Gehörschutz intro) ---------------- */
 .compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:48px}
